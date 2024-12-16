@@ -4,8 +4,15 @@
   "description": "commonjs-modules === ### Consegna: Lavoriamo con i moduli commonjs esportando e importando valori e funzioni. Segui questi tre step creando i rispettivi files:",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node people.js",
+    "startNames": "node names.js",
+    "startHobbies": "node hobbies.js",
+    "watch": "node --watch people.js",
+    "watchNames": "node --watch names.js",
+    "watchHobbies": "node --watch hobbies.js"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nicolaparutto/node-commonjs-modules.git"
