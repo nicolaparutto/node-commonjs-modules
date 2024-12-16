@@ -5,7 +5,7 @@ function completeName(firstName, lastName) {
    };
 };
 
-module.export = completeName; 
+module.exports = completeName; 
 
 //X verificare se funziona:
 //console.log(completeName('Mario', 'Rossi'))

@@ -4,7 +4,7 @@ function createhobbiesArray(hobbyOne, hobbyTwo, hobbyThree){
    }
 }
 
-module.export = createhobbiesArray;
+module.exports = createhobbiesArray;
 
 //X verificare se funziona:
 //console.log(createhobbiesArray('calcio', 'basket', 'pallavolo'))
