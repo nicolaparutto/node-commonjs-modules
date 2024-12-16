@@ -6,3 +6,6 @@ function completeName(firstName, lastName) {
 };
 
 module.export = completeName; 
+
+//X verificare se funziona:
+//console.log(completeName('Mario', 'Rossi'))
