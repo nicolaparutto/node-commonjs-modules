@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node people.js",
+    "start": "node index.js",
+    "startPeople": "node people.js",
     "startNames": "node names.js",
     "startHobbies": "node hobbies.js",
-    "watch": "node --watch people.js",
+    "watch": "node --watch index.js",
+    "watchPeople": "node --watch people.js",
     "watchNames": "node --watch names.js",
     "watchHobbies": "node --watch hobbies.js"
   },

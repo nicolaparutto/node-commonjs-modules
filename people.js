@@ -3,7 +3,7 @@ const functNames = require("./names");
 const functHobbies = require("./hobbies");
 
 
-function peopleNameHobbies(){
+function people(){
    return {
       fullName: functNames('Mario', 'Rossi'),
       hobbies: functHobbies('calcio', 'basket', 'pallavolo')
@@ -11,4 +11,6 @@ function peopleNameHobbies(){
 }
 
 //X verificare se funziona:
-//console.log(peopleNameHobbies())
+//console.log(people())
+
+module.exports = people; 
